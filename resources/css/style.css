@@ -80,23 +80,28 @@ html {
 
 .container-mid {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  border: 3px solid;
-
 }
 
 .three-icons {
   margin-top: 3rem;
   display: flex;
   width: 960px;
-  border: 3px solid;
-  justify-content: space-between;
+  height: 8rem;
+  justify-content: center;
+
+}
+.icon-1 span {
+  margin-top: 1rem;
 }
 
-.icon span {
-  display: block;
-  text-align: center;
+.icon-2 span, .icon-3 span {
+  margin-top: 2.5rem;
+}
+
+.icon-1, .icon-2, .icon-3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .icon-1 span, .icon-2 span, .icon-3 span{
@@ -106,14 +111,83 @@ html {
 
 .picture-1 {
   width: 3.5rem;
+  margin-left: 1.5rem;
+}
+
+.picture-2 {
+  width: 5rem;
+}
+
+.picture-3 {
+  width: 5rem;
+}
+
+/* Below is the last container of the webside */
+
+.container-last {
+  display: flex;
+  justify-content: center;
+
+}
+
+.stories {
+  width: 960px;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.philosophy, .appointments {
+  width: 35%;
+  margin-right: 5%;
+}
+.text {
+  margin-top: 1rem;
+}
+
+.philosophy h4, .appointments h4 {
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  width: 10rem;
+  color:white;
+}
+
+/* Below is the footer of the webside */
+footer {
+  background-color: azure;
+  width: 960px;
+  display: flex;
+  margin-top: 5rem;
+  align-items: center;
+
   border: 2px solid;
-  margin-left: 1rem;
 
 
 }
-.icon-1 {
-  border: 2px solid;
-  display: flex;
-  flex-direction: column;
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+
+.footer-logo {
+  padding: 4rem 0rem 4rem 4rem;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  border: 2px solid;
+}
+
+.footer-logo span {
+  border: 2px solid;
+  align-items: center;
+  margin-top: 3rem;
+  
 }
